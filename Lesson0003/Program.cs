@@ -18,8 +18,8 @@ Console.WriteLine(number + number1);
 // Объявляем две переменные при помощи целочисленного типа данных int
 // и присвоим переменным значения при помощи Console.ReadLine
 
-int num = Console.ReadLine();
-int num1 = Console.ReadLine();
+int num = int.Parse(Console.ReadLine());
+int num1 = int.Parse(Console.ReadLine());
 
 // Выводим сумму двух чисел введенного пользователем
 
