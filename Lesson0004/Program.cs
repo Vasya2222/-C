@@ -27,3 +27,8 @@ Console.WriteLine(number + number1);
 
 Console.Write("Вычитание чисел равна -> ");
 Console.WriteLine(number - number1);
+
+// Ввывести произведение чисел
+
+Console.Write("Произведение чисел -> ");
+Console.WriteLine(number * number1);
