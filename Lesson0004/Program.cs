@@ -30,5 +30,10 @@ Console.WriteLine(number - number1);
 
 // Ввывести произведение чисел
 
-Console.Write("Произведение чисел -> ");
+Console.Write("Произведение чисел равна -> ");
 Console.WriteLine(number * number1);
+
+// Ввывести деление чисел
+
+Console.Write("Деление чисел равна -> ");
+Console.WriteLine(number / number1);
