@@ -37,3 +37,8 @@ Console.WriteLine(number * number1);
 
 Console.Write("Деление чисел равна -> ");
 Console.WriteLine(number / number1);
+
+// Ввывести деление по модулю чисел
+
+Console.Write("Деление по модулю равна -> ");
+Console.WriteLine(number % number1);
