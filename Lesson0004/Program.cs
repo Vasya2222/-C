@@ -16,3 +16,9 @@ int number = int.Parse(Console.ReadLine());
 
 Console.Write("Введите второе число ->");
 int number1 = int.Parse(Console.ReadLine());
+
+
+// Вывести сумму чисел
+
+Console.Write("Сумма чисел равна ->");
+Console.WriteLine(number + number1);
