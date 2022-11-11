@@ -22,3 +22,8 @@ int number1 = int.Parse(Console.ReadLine());
 
 Console.Write("Сумма чисел равна ->");
 Console.WriteLine(number + number1);
+
+// Ввывести вычитание чисел
+
+Console.Write("Вычитание чисел равна ->");
+Console.WriteLine(number - number1);
