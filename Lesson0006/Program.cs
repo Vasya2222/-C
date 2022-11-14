@@ -2,7 +2,7 @@
 
 // запросить имя пользователя
 Console.Write("Введите Ваше имя -> ");
-string name = Console.ReadLine();
+string? name = Console.ReadLine();
 // поприветствовать пользователя
 
 Console.Write("Привет, ");
