@@ -12,7 +12,8 @@ int index = 0;
 
 while (index < 9){
     if (array[index] == find){
-        Console.WriteLine("Да число есть!");
+        Console.Write("Да число есть! ");
+        Console.WriteLine(index);
         break;
     }
     index++;
