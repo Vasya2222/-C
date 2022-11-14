@@ -4,7 +4,7 @@
 
 // Приветствуем пользователя
 Console.Write("Введите ваше имя -> ");
-string name = Console.ReadLine();
+string? name = Console.ReadLine();
 Console.Write("Привет, ");
 Console.WriteLine(name + "!");
 
@@ -12,10 +12,10 @@ Console.WriteLine(name + "!");
 Console.WriteLine("Введите числа");
 
 Console.Write("Введите первое число -> ");
-int number = int.Parse(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите второе число -> ");
-int number1 = int.Parse(Console.ReadLine());
+int number1 = Convert.ToInt32(Console.ReadLine());
 
 
 // Вывести сумму чисел
