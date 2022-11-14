@@ -21,11 +21,11 @@ int num1 = Convert.ToInt32(Console.ReadLine());
 // запрос пользователю ввести оператор +, -, *, /, %
 
 Console.Write("Введите оператор +, -, *, /, %");
-string nam = Console.ReadLine();
+string? op = Console.ReadLine();
 
 // Проверка условий
 
-// if (nam == '+'){
+// if (op == '+'){
 //     Console.Write("Сумма чисел равна -> ");
 //     Console.WriteLine(num + num1);
 // }
