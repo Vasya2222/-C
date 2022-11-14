@@ -1,4 +1,9 @@
-﻿Console.WriteLine("Первый способ");
+﻿int Max(int arg1, int arg2, int arg3){
+    int result =arg1;
+    if (result < arg2) result = arg2;
+    if (result < arg3) result = arg3;
+    return result;
+}
 int num1 = 12;
 int num2 = 1;
 int num3 = 20;
@@ -8,19 +13,9 @@ int num6 = 60;
 int num7 = 80;
 int num8 = 8888;
 int num9 = 8822;
-int num10 = 2;
 
-int max = num1;
+int max = Max(Max(num1, num2, num3), Max(num4, num5, num6), Max(num7, num8, num9));
 
-if (num2 > max) max = num2;
-if (num3 > max) max = num3;
-if (num4 > max) max = num4;
-if (num5 > max) max = num5;
-if (num6 > max) max = num6;
-if (num7 > max) max = num7;
-if (num8 > max) max = num8;
-if (num9 > max) max = num9;
-if (num10 > max) max = num10;
 
 Console.Write("Максимальное число равно -> ");
 Console.WriteLine(max);
